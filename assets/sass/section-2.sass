@@ -1,0 +1,72 @@
+#s2
+    height: auto
+    min-height: 100vh
+    figure
+        display: grid
+        grid-template-columns: 2fr 3fr
+        align-items: center
+        min-height: 100vh
+        @media (max-width: 1000px)
+            display: block
+            padding: 30px
+            padding-top: 80px
+            padding-bottom: 80px
+
+
+    .s2__img-container
+        height: 50vh
+        text-align: center
+        align-self: center
+        @media (max-width: 800px)
+            height: 300px
+        @media (max-width: 600px)
+            height: 250px
+
+        .s2__img
+            display: inline-block
+            margin: 0 auto
+            max-width: 100%
+            max-height: 100%
+            animation-direction: alternate
+            animation-timing-function: ease-in-out
+            animation-iteration-count: infinite
+            animation-name: s2__img-container-animation
+            animation-duration: 8s
+
+        @keyframes s2__img-container-animation
+            20%
+                transform: rotateZ(-0.5deg) translate(2%,-3%) scale(1.02)
+            60%
+                transform: rotateZ(0.5deg) translate(-1%,-1%) scale(0.98)
+
+
+
+
+    .s2__img-description
+        text-align: left
+        align-self: center
+        width: 80%
+        display: block
+        line-height: 30px
+        animation-direction: alternate
+        animation-timing-function: ease-in-out
+        animation-iteration-count: infinite
+        animation-name: s2__img-description-animation
+        animation-duration: 6s
+        @media (max-width: 1000px)
+            width: 100%
+            padding: 10px
+            padding-top: 30px
+            font-size: 16px
+
+
+
+    @keyframes s2__img-description-animation
+        20%
+            @media(min-width: 1000px)
+                transform: translate(2%,-2%)
+        30%
+            color: gray
+        80%
+            @media(min-width: 1000px)
+                transform: translate(-1%,1%)
