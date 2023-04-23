@@ -458,10 +458,7 @@ body h3 {
 
 @keyframes s1__image-1-animation {
     to {
-        margin-left: 3%;
-        margin-top: 1%;
-        width: 42%;
-        height: 37%;
+        transform: scale(1.04, 1.04) translate(-45%, -51%);
     }
 }
 
@@ -477,10 +474,7 @@ body h3 {
 
 @keyframes s1__image-2-animation {
     to {
-        margin-left: 1%;
-        margin-top: -3%;
-        height: 13%;
-        width: 17%;
+        transform: scale(1.06, 1.05) translate(-54%, -51%);
     }
 }
 
@@ -495,9 +489,7 @@ body h3 {
 
 @keyframes s1__image-3-animation {
     to {
-        margin-left: -2%;
-        margin-top: 2%;
-        height: 17%;
+        transform: scale(1.02, 1.08) translate(-65%, -48%);
     }
 }
 
@@ -512,9 +504,7 @@ body h3 {
 
 @keyframes s1__image-4-animation {
     to {
-        margin-left: -10%;
-        margin-top: 1%;
-        height: 23%;
+        transform: scale(1.1, 1.1) translate(-39%, -51%);
     }
 }
 
@@ -535,9 +525,7 @@ body h3 {
 
 @keyframes s1__image-5-animation {
     to {
-        margin-left: 3%;
-        margin-top: 7%;
-        width: 55%;
+        transform: scale(1.05, 1) translate(-40%, -50%);
     }
 }
 
@@ -558,9 +546,7 @@ body h3 {
 
 @keyframes s1__image-6-animation {
     to {
-        margin-left: 3%;
-        margin-top: 2%;
-        height: 18%;
+        transform: scale(1, 1.02) translate(-40%, -30%);
     }
 }
 
